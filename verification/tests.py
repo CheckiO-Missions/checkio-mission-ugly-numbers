@@ -11,26 +11,81 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": [4],
+            "answer": 4,
+            "explanation": "4th Ugly number is..."
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": [6],
+            "answer": 6,
+            "explanation": "6th Ugly number is..."
+        },
+        {
+            "input": [11],
+            "answer": 15,
+            "explanation": "11th Ugly number is..."
+        },
+        {
+            "input": [1],
+            "answer": 1,
+            "explanation": "1st Ugly number is..."
+        },
+        {
+            "input": [29],
+            "answer": 75,
+            "explanation": "Result is below 100..."
+        },
+        {
+            "input": [84],
+            "answer": 960,
+            "explanation": "Result is below 1000..."
+        },
+        {
+            "input": [171],
+            "answer": 9216,
+            "explanation": "Over nine thousands!"
+        },
+        {
+            "input": [313],
+            "answer": 100000,
+            "explanation": "Jackpot!"
+        },
+        {
+            "input": [593],
+            "answer": 2332800,
+            "explanation": "It's getting harder..."
+        },
+        {
+            "input": [899],
+            "answer": 26214400,
+            "explanation": "Too slow?.. It's not the end..."
         }
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": [978],
+            "answer": 44789760,
+            "explanation": "When are you turn the wron way?"
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
+            "input": [1173],
+            "answer": 150000000,
+            "explanation": "150 billions!"
+        },
+        {
+            "input": [1398],
+            "answer": 512000000,
+            "explanation": "150 billions!"
+        },
+        {
+            "input": [1407],
+            "answer": 536870912,
+            "explanation": "2 ** 29"
+        },
+        {
+            "input": [1500],
+            "answer": 859963392,
+            "explanation": "Final test!"
         }
     ]
 }
