@@ -8,7 +8,7 @@ if __name__ == '__main__':
     print(ugly_number(4))
 
     # These "asserts" are used for self-checking and not for an auto-testing
-    assert ugly_number(4) == 5
+    assert ugly_number(4) == 4
     assert ugly_number(6) == 6
     assert ugly_number(11) == 15
     print("Ugly Numbers coding complete? Click 'Check' to earn cool rewards!")
