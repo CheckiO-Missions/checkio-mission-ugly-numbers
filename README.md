@@ -1,7 +1,7 @@
-CheckiO Mission
+CheckiO Mission by Axel
 =====================
 
-The repository is using for sharin missions on CheckiO. 
+The repository is using for sharin Axel's missions for CheckiO. 
 
 URL for Python version: https://py.checkio.org
 
