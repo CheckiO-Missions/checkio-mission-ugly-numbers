@@ -65,7 +65,7 @@ TESTS = {
         {
             "input": [978],
             "answer": 44789760,
-            "explanation": "When are you turn the wron way?"
+            "explanation": "Where are you turn the wrong way?"
         },
         {
             "input": [1173],
