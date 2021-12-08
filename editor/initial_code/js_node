@@ -1,16 +1,17 @@
 import assert from "assert";
 
-function sumTwo(a: number, b: number): number {
+function ugly_number(n: number): number {
     // your code here
-    return 0;
+    return n;
 }
 
 console.log('Example:');
-console.log(sumTwo(3, 2));
+console.log(ugly_number(4));
 
 // These "asserts" are used for self-checking
-assert.equal(sumTwo(3, 2), 5);
-assert.equal(sumTwo(5, 7), 12);
+assert.equal(ugly_number(4), 4);
+assert.equal(ugly_number(6), 6);
+assert.equal(ugly_number(11), 15);
 
-console.log("Coding complete? Click 'Check' to earn cool rewards!");
+console.log("Ugly Numbers coding complete? Click 'Check' to earn cool rewards!");
     
