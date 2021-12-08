@@ -1,7 +1,9 @@
 <!-- Describe task in general -->
 
 <p>
-    Sum two passed ints
+Ugly numbers are numbers whose only prime factors are 2, 3 or 5. 
+The sequence 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, ... shows the first 11 ugly numbers. By convention, 1 is included.
+Write a program to find and print the N’th ugly number
 </p>
 
 <p style="text-align: center;">
@@ -10,11 +12,11 @@
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Input: </strong> Two arguments. Both are ints.
+    <strong>Input: </strong>N, int.
 </p>
 
 <p>
-    <strong>Output: </strong> Int. 
+    <strong>Output: </strong>N'th Ugly Number, int. 
 </p>
 
 
@@ -25,12 +27,14 @@
     </p>
 
 {% if is_js %}
-<pre class="brush: javascript">sumTwo(3, 2) == 5
-sumTwo(5, 7) == 12
+<pre class="brush: javascript">ugly_number(4) == 4
+ugly_number(6) == 6
+ugly_number(11) == 15
 </pre>
 {% else %}
-<pre class="brush: python">sum_two(3, 2) == 5
-sum_two(5, 7) == 12
+<pre class="brush: python">ugly_number(4) == 4
+ugly_number(5) == 6
+ugly_number(11) == 15
 </pre>
 {% endif %}
 </div>
@@ -39,14 +43,13 @@ sum_two(5, 7) == 12
 <!-- Here you can explain how it can be used in development -->
 <!-- The section is optional -->
 <p class="for_info_only">
-
     <strong>How it’s used: </strong>
-    <i>(math is used everywhere)</i>
+    <i>Demonstrate that straight way can be very slow</i>
 </p>
 
 <!-- Here you can explain some constraints for input-->
 <!-- The section is optional -->
 <p>
     <strong>Precondition:</strong>
-    <i>both given ints should be between -1000 and 1000</i>
+    <i>Given int is below or equal of 1500</i>
 </p>
